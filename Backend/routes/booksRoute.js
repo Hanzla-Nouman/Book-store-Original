@@ -1,7 +1,7 @@
 import express from "express";
 import { Book } from "../models/bookModel.js";
 const router = express.Router();
-
+// To understand the backend of simple app
 // Route for save a new book
 router.post("/", async (req, res) => {
   try {
